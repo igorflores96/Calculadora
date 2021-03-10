@@ -12,3 +12,10 @@ float Calculadora::subtrair(float operadorA, float operadorB)
     resultado = operadorA - operadorB;
     return resultado;
 }
+
+float Calculadora::multiplicar(float operadorA, float operadorB)
+{
+    resultado = operadorA * operadorB;
+
+    return resultado;
+}
