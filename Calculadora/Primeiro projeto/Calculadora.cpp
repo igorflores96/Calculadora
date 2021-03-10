@@ -19,3 +19,18 @@ float Calculadora::multiplicar(float operadorA, float operadorB)
 
     return resultado;
 }
+
+float Calculadora::dividir(float operadorA, float operadorB)
+{
+    if (operadorB != 0)
+    {
+        resultado = operadorA / operadorB;
+
+        return resultado;
+    }
+    else
+    {
+        return 0.0f;
+    }
+ 
+}
